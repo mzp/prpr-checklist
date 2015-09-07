@@ -9,13 +9,10 @@ Gem::Specification.new do |spec|
   spec.authors       = ["mzp"]
   spec.email         = ["mzpppp@gmail.com"]
 
-  spec.summary       = %q{Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{Write a longer description or delete this line.}
+  spec.summary       = "Prpr plugin to post check list to pull requset."
+  spec.description   = "When new pull request is created, the content of CONTRIBUTING.md is posted as comment."
   spec.homepage      = "https://github.com/mzp/prpr-checklist"
   spec.license       = "MIT"
-
-  # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
-  # delete this section to allow pushing this gem to any host.
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
