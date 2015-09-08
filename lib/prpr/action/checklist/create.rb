@@ -34,6 +34,8 @@ module Prpr
 
         def content
           config.read(name)
+        rescue
+          "Not found: #{name}"
         end
       end
     end
