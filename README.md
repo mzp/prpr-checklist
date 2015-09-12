@@ -8,7 +8,7 @@ Add this line to your application's Gemfile:
 
 ```ruby
 # Gemfile
-gem 'prpr-checklist', github: 'mzp/prpr-checklist'
+gem 'prpr-checklist'
 ```
 
 ## Usage
